@@ -5,8 +5,13 @@
 models.py contains the classes use to create the three tables, User, Accelerometer, and Keyboard.
 
 ###User
-User has two columns: <code>id</code> and <code>device</code>
+User has two columns: <code>id</code> and <code>device</code> which describes the device used.
 
+###Accelerometer
+Accelerometer has five columns: <code>id</code> (primary key), <code>timestamp</code>, <code>accel_x</code>, <code>accel_y</code>, <code>accel_z</code>
+
+###Keyboard
+Keyboard has  
 
 ###Parsing Scripts
 parseCSVdevice.py is used to create the User table. It parses through one csv which has all the device each user used in the study.
