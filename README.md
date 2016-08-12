@@ -12,7 +12,7 @@ The tables Accelerometer and Keyboard are connected to the User table through fo
 Accelerometer has five columns: <code>id</code> (primary key), <code>timestamp</code>, <code>accel_x</code>, <code>accel_y</code>, <code>accel_z</code>
 
 ###Keyboard
-Keyboard has three columns: <codes>id</code> (primary key), <code>timestamp</code>, <code>key_press</code>
+Keyboard has three columns: <code>id</code> (primary key), <code>timestamp</code>, <code>key_press</code>
 If the keypress is -4 that means the user sent the message, when it is at 0 the user was writing the message.
 
 ###Parsing Scripts
